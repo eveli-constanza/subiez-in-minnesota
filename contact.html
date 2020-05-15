@@ -1,0 +1,108 @@
+<!DOCTYPE hmtl>
+<html lang="en">
+  <head>
+    <title>Subies in Minnesota :: Contact Us</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Subaru hobby and enthusiast page for those who enjoy driving Subarus">
+        <!-- Bootstrap Stylesheet-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="subies.css">
+        </head>
+  <body>
+    <div id="header">
+      <header>
+        <h1> Subies in Minnesota </h1>
+      </header>
+    </div>
+    <br>
+      <nav>
+        <ul>
+          <li><a href="finalprojectsubies.html">Home</a></li>
+          <li><a href="about.html">Photo Gallery</a></li>
+          <li><a href="contact.html">Contact us</a></li>
+        </ul>
+      </nav>
+    <br>
+    <hr>
+  <!-- qoute from some subaru lovers -->
+        <main>
+          <h2> Hear the why many have chosen Subarus</h2>
+          <blockquote><small>I decided to go with a subaru because finding a clean evo 8/9 is hard.
+          - " I love my subaru because its it's all wheel drive and make turbo noises"!
+          <br>  - Peter
+          <hr>
+          <br> " Why I drive a subie: I drive a subie because it's fun to just drive one. Why I love my subie:
+           I love my subie because I don’t have to worry about the 4 seasons we have in MN". <br>
+           - Adam
+           <hr>
+           <br> "I chose my WRX cause it was low mileage and a good deal.
+           I love my car cause it has enough power to pass up dumb drivers but comfortable enough for daily driving.
+           Also, MN winters are not forgiving so it was the best option for sporty, awd, and affordable. Lol"<br>
+           - Blong
+           <hr>
+           <br> "I chose a subie because I was young and stupid.
+          What I love about my subie is that it’s like having a love/hate relationship. Sometimes you just wanna love
+          it and sometimes you just want to hate it."<br>
+          - Joey
+          <hr>
+          <br> "I chose Subaru because I grew up with it. Our very first subary was a 93' Impreza Wagon and from there my family kept working on subarus until I got my very own. They are great for the winter.
+          I love my subie because it pulls when I need it to pull, especially when someone isn’t trying to let you in onto the highway.
+          Its red too and that’s one of my favorite colors."<br>
+          -Eveli
+          <hr>
+          <br>"
+          I chose Subaru because they are Awd  and it feels safer on the turns. In snowy weather it offers you more security.
+          I love them because they are so much fun to drive & I like how they are made".<br>
+          -Rony
+
+        </small></blockquote>
+
+        <hr>
+        <p>
+
+ <div id="contact">
+        <h2>Send us your information for a feature on our page!</h2>
+
+        <p>Required information is marked with an asterisk (*).</p>
+        <form method="post" onsubmit="return validateForm();"
+  action="https://webdevbasics.net/scripts/pacific.php">
+
+
+        <label for="firstName">* First Name: </label><input type="text" id="firstName" name="firstName" required="required">
+        <label for="lastName">* Last Name: </label><input type="text" id="lastName" name="lastName" required="required">
+        <label for="email">* E-mail: </label><input type="email" id="email" name="email">
+        <label for="phone">  Phone: </label><input type="tel" id="phone" name="phone">
+        <label for="comments"> Comments: </label><input type="textarea" id="comments" name="comments">
+        <input type="submit" value="Submit" id="mySubmit">
+      </form>
+    </div>
+
+
+    </main>
+    <footer>
+
+        <div class="footer">
+        <small>&copy; Subies in Minnesota<br>Subaru project page 2020</small>
+    </footer>
+
+    <!--jQuery, Popper, and Bootstrap Javascript files-->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    </div>
+    </div>
+          <script>
+          function validateForm() {
+            if (document.forms[0].email.value == "" ) {
+            alert("Please enter an e-mail address.");
+            return false;
+          } // end if
+          return true;
+        } // end function validateForm
+      </script>
+
+</body>
+</html>
